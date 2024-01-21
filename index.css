@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 5px solid black;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1533038023143-de7a62a9d779?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbCUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D");
+    background-size: cover; 
+}
+
+span {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    background: white; 
+    font-weight: bold;
+    
+}
+
+button {
+    margin: 20px 5px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+    
+}
+#add {
+     background: green;
+     color: white;
+}
+
+#subtract {
+     background: red;
+     color: white;
+}
+
+#divide{
+     background: darkgoldenrod;
+     color: white;
+    
+}
+
+#multiply {
+     background: darkblue;
+     color: white;
+    
+}
+
+#next{
+     background: darkcyan;
+     color: white;
+    
+}
+
+#next:hover {
+     background: gold;
+     color: white;
+}
+
+#add:hover {
+     background: gold;
+     color: white;
+}
+
+
+
+#subtract:hover {
+     background: gold;
+     color: white;
+}
+
+#divide:hover {
+     background: gold;
+     color: white;
+    
+}
+
+#multiply:hover {
+     background: gold;
+     color: white;
+    
+}
+
+h1 {
+    color: white;
+    padding: 2px;
+    text-shadow: 1px 1px 1px black;
+}
+
+h1:hover {
+    background: linear-gradient(gold,red,blue);
+    background-clip: text;
+    color: transparent; /* Make the text transparent to reveal the gradient background */
+    animation: dance 1s ease infinite;
+    text-shadow: 0px 0px 0px;
+}
+
+
+
+
+@keyframes dance {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(5px, -5px); }
+    50% { transform: translate(0, 0); }
+    75% { transform: translate(-5px, 5px); }
+    100% { transform: translate(0, 0); }
+}
+
+
