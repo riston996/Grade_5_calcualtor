@@ -1,3 +1,4 @@
+console.log("js is loaded");
 let num1 = 8
 let num2 = 2
 document.getElementById("num1-el").textContent = num1
