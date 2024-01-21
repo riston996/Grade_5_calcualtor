@@ -52,8 +52,13 @@ function changeBackground() {
         'url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/tree-bark-nature-texture-6.jpg")',
         'url("https://img.freepik.com/free-photo/beige-dried-leaf-pattern-wallpaper_53876-94651.jpg")',
         'url("https://lh3.googleusercontent.com/proxy/IohxVEBKU9rkPubwnDxhLdJV0HmUbZWJ0w52mrnv5fYWpsW_F_wnYlWYoZa6VaPFmGHr8WQklatXFUHlCBWPwnTO0mYhXJi3QOAjutH_ZMv1Fw")',
-        'url("https://i.pinimg.com/originals/b5/df/2a/b5df2adcd978bf0ff7aa6f4b8a7b9f52.jpg")'
+        'url("https://i.pinimg.com/originals/b5/df/2a/b5df2adcd978bf0ff7aa6f4b8a7b9f52.jpg")',
+        'url("https://g3.img-dpreview.com/B7B8A5ABFA9D4A8A85F15EE817F11862.jpg")',
+        'url("https://img.freepik.com/free-photo/green-leaf-texture-leaf-texture-background_501050-120.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700524800&semt=ais")',
+        'url("https://img.freepik.com/premium-photo/tropical-leaves-abstract-green-leaves-texture-nature-background_512343-1135.jpg")',
+        'url("https://img.freepik.com/free-vector/large-tropical-green-leaves-background_52683-36490.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705363200&semt=ais")',
     ];
+    const randomIndex = Math.floor(Math.random() * images.length);
     let calcElement = document.querySelector(".calc");
     calcElement.style.backgroundImage = images[randomIndex];
 }
