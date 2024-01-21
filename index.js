@@ -43,4 +43,17 @@ function next() {
     document.getElementById("num2-el").textContent = num2
     let ans = document.getElementById("sum-el");
     ans.innerText = "Sum:";
+    changeBackground();
+}
+
+function changeBackground() {
+    // Array of image URLs
+    const images = [
+        'url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/tree-bark-nature-texture-6.jpg")',
+        'url("https://img.freepik.com/free-photo/beige-dried-leaf-pattern-wallpaper_53876-94651.jpg")',
+        'url("https://lh3.googleusercontent.com/proxy/IohxVEBKU9rkPubwnDxhLdJV0HmUbZWJ0w52mrnv5fYWpsW_F_wnYlWYoZa6VaPFmGHr8WQklatXFUHlCBWPwnTO0mYhXJi3QOAjutH_ZMv1Fw")',
+        'url("https://i.pinimg.com/originals/b5/df/2a/b5df2adcd978bf0ff7aa6f4b8a7b9f52.jpg")'
+    ];
+    let calcElement = document.querySelector(".calc");
+    calcElement.style.backgroundImage = images[randomIndex];
 }
