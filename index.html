@@ -4,21 +4,43 @@
     </head>
     <body>
         <div class="calc">
-        <h1>Grade 5 Maths Calculator</h1>
-        <div>
-        <span id="num1-el"></span>
-        <span id="num2-el"></span>
+        <div class="Treasure-Map">
+        <h1>FIND THE BLUE MATHMONKEY </h1>
+        <h3><i>Catch 5 and you win, Miss 5 and you lose.<br>(he left a clue)</i></h3>
         </div>
-        <div>
-        <br>
-        <button id="add" onclick="add()">Add</button>
-        <button id="subtract" onclick="subtract()">Subtract</button>
-        <button id="divide" onclick="divide()">Divide</button>
-        <button id="multiply" onclick="multiply()">Multiply</button>
-        <br>
+        <div class="blue-monkey">
+        <img id="blue" src="blue_monkey.jpg">
         </div>
-        <span id="sum-el">Sum: </span>
-        <button id="next" onclick="next()">Next</button>
+        <div class="num">
+            <div>
+                <span id="num1-el"></span>
+                <span>+</span>
+                <span id="num2-el"></span>
+                <span>=</span>
+            </div>
+        </div>
+        <div class="cards">
+        <div class="row1">
+            <div id="card1" class="card" >
+                <p id="ans1">5</p>   
+            </div>
+            <div id="card2" class="card">
+                <p id="ans2">6</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div id="card3" class="card">
+                <p id="ans3">7</p>
+            </div>
+            <div id="card4" class="card">
+                <p id="ans4">9</p>
+            </div>
+        </div>
+        </div>
+        <div class="end">
+            <button id="next" onclick="next()">Next</button>
+        </div>
+        
         </div>
         
         <script src="index.js"></script>
